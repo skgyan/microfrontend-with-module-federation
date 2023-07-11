@@ -2,7 +2,7 @@ import './App.css'
 
 import Button from "remote/Button";
 import useStore from "remote/store";
-import Bottom from "paycard/Bottom"
+import Bottom from "secondModule/Bottom"
 
 function App() {
   const [count, setCount] = useStore();

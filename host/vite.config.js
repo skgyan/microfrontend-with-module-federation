@@ -9,7 +9,7 @@ export default defineConfig({
     name: "app",
     remotes: {
       remote: "http://localhost:5001/assets/entry.js",
-      paycard: "http://localhost:5003/assets/paycardEntry.js",
+      secondModule: "http://localhost:5003/assets/secondModuleEntry.js",
     },
     shared: ["react", "react-dom", "jotai"],
   })],

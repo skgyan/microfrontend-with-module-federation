@@ -4,7 +4,7 @@ export default function Bottom() {
     const [count, ] = useStore();
 
     return <div>
-        Paycard Module
+        Second Module
         <div>
             count is {count}
         </div>

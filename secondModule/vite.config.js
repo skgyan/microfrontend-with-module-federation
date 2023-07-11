@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [
     react(),
     federation({
-      name: "paycard",
-      filename: "paycardEntry.js",
+      name: "secondModule",
+      filename: "secondModuleEntry.js",
       exposes: {
         "./Bottom": "./src/Bottom",
       },
