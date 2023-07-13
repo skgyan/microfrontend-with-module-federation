@@ -3,6 +3,7 @@ import './App.css'
 import Button from "remote/Button";
 import useStore from "remote/store";
 import Bottom from "secondModule/Bottom"
+import MyApp from "secondModule/MyApp"
 
 function App() {
   const [count, setCount] = useStore();
@@ -18,6 +19,8 @@ function App() {
         </button>
       </div>      
       <Bottom/>
+
+      <MyApp />
     </div>
   )
 }

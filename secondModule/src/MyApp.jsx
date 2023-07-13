@@ -1,20 +1,22 @@
 import { useState } from 'react'
 import Bottom from './Bottom'
 import './App.css'
+import DateTime from './DateTime'
 
-function App() {
+function MyApp() {
   const [count, setCount] = useState(0)
 
   return (
     <>      
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          MyApp count is {count}
         </button>        
       </div>
-      <Bottom/>      
+      <Bottom/>
+      <DateTime/>      
     </>
   )
 }
 
-export default App
+export default MyApp

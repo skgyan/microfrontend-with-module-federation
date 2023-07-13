@@ -10,6 +10,7 @@ export default defineConfig({
       name: "secondModule",
       filename: "secondModuleEntry.js",
       exposes: {
+        "./MyApp": "./src/MyApp",
         "./Bottom": "./src/Bottom",
       },
       remotes: {
